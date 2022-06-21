@@ -23,16 +23,19 @@ header {
   align-items: center;
   padding: 0 100px;
   height: 100px;
-  width: 100%;
-  background-color: #c7adab;
+  width: 80%;
+  background-color: #E595A7;
   position: fixed;
   top: 0;
   z-index: 999999999999;
   transition: 0.3s;
+  border-radius: 15px;
+   margin-left: 100px;
+margin-top: 20px;
 }
 
 .dark header {
-  background-color: #2E2E34
+  background-color: #42445A;
 }
 
 header h2 {
@@ -153,10 +156,10 @@ header ul li a:hover {
 
 .bgtitle {
   position: absolute;
-  transform: rotate(-90deg) translateY(300px) translateX(-250px);
+  transform: rotate(-90deg) translateY(50px) translateX(-240px);
   z-index: -2;
   right: 0;
-  font-size: 150px;
+  font-size: 50px;
   color: #1f67db;
   opacity: 0.3
 }
@@ -217,9 +220,10 @@ header ul li a:hover {
 
 .title {
   text-transform: uppercase;
-  color: #5893FF;
+  color: #FFFFFF;
   letter-spacing: 1px;
   font-size: 45px;
+  padding-top: 10px;
 }
 
 .cards {
@@ -249,7 +253,7 @@ header ul li a:hover {
 
 .bgcard {
   background-color: lightgray;
-  z-index: 100000;
+  z-index: 10000;
   top: 0;
   bottom: 0;
   right: 0;
@@ -427,11 +431,12 @@ header ul li a:hover {
   opacity: 0.3;
   border-radius: 50%;
   bottom: 40px;
-  left: 160px;
+  left: 60px;
 }
 
 #contact {
-  background-color: #30257D;
+  background-color: #329CFF;
+  color: #FFFFFF;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -490,7 +495,10 @@ header ul li a:hover {
 
   header {
     padding: 0 20px;
+    margin-left: 30px;
     height: 60px;
+    justify-content: none;
+   position: sticky;
   }
 
   header h2 {
@@ -636,7 +644,7 @@ header ul li a:hover {
   }
 
   .bgtitle {
-    transform: rotate(-90deg) translateY(130px) translateX(-350px);
+    transform: rotate(-90deg) translateY(15px) translateX(-110px);
     font-size: 60px;
   }
 
@@ -752,7 +760,7 @@ header ul li a:hover {
     width: 70px;
     border: dashed 10px #1f67db;
     top: 40px;
-    transform: translateX(100px)
+    transform: translateX(10px)
   }
 
   #contact {
